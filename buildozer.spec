@@ -44,6 +44,9 @@ copy_to_current = 1
 # Log settings
 log_level = 2
 
+# Exclude unnecessary test files
+android.exclude_patterns = **/lib2to3/tests/**
+
 # Optional icon and presplash (uncomment if needed)
 # icon.filename = %(source.dir)s/icon.png
 # presplash.filename = %(source.dir)s/data/presplash.png
