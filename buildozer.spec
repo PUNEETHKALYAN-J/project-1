@@ -34,7 +34,6 @@ requirements = python3==3.10.13, kivy==2.3.0, cython==0.29.36
 # Blacklist problematic Python 2 files that cause syntax errors during build
 android.exclude_patterns = tests/*, **/lib2to3/tests/**
 
-
 # Versioning
 version = 0.1
 python.version = 3
@@ -44,9 +43,6 @@ copy_to_current = 1
 
 # Log settings
 log_level = 2
-
-# Exclude unnecessary test files
-android.exclude_patterns = **/lib2to3/tests/**
 
 # Optional icon and presplash (uncomment if needed)
 # icon.filename = %(source.dir)s/icon.png
