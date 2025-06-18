@@ -52,7 +52,8 @@ android.private_storage = True
 android.archs = armeabi-v7a, arm64-v8a
 
 # (list) Application requirements
-requirements = python3, kivy, plyer, requests
+requirements = python3,kivy==2.3.0,cython==0.29.36
+
 
 
 # (str) Presplash image
