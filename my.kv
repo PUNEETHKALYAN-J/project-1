@@ -1,10 +1,8 @@
-BoxLayout:
+<MyBoxLayout>:
     orientation: 'vertical'
-
     Label:
         id: my_label
-        text: "Hello from Kivy!"
-
+        text: 'Hello from Kivy!'
     Button:
-        text: "Click Me!"
-        on_press: app.on_button_click()
+        text: 'Click Me!'
+        on_press: root.on_button_click()
