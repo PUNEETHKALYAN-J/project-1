@@ -31,6 +31,9 @@ android.archs = armeabi-v7a, arm64-v8a
 # Application dependencies
 requirements = python3==3.10.13, kivy==2.3.0, cython==0.29.36
 
+# Blacklist problematic Python 2 files that cause syntax errors during build
+android.exclude_patterns = **/lib2to3/tests/*
+
 # Versioning
 version = 0.1
 python.version = 3
